@@ -1,0 +1,7 @@
+build docker image:
+
+docker build -t imagename:tag .
+
+  start conatiner
+
+docker run -d -p 3000:3000 imagename/imageid:latest 
